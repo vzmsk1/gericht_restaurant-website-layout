@@ -1636,6 +1636,7 @@ body::after {
 
 .menu__link,
 .actions-header__link {
+  display: inline-block;
   letter-spacing: 0.04em;
   line-height: 175%;
   white-space: nowrap;
