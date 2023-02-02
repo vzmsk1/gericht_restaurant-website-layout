@@ -2319,12 +2319,6 @@ body::after {
   padding-bottom: 1.5625rem;
 }
 
-.slide-slider-hero-mainpage__head {
-  -webkit-transform: translateY(103%);
-      -ms-transform: translateY(103%);
-          transform: translateY(103%);
-}
-
 .slide-slider-hero-mainpage__text {
   max-width: 28.125rem;
   margin-top: 0.625rem;
