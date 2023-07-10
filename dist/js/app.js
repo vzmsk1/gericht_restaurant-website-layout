@@ -3817,8 +3817,8 @@
             }
         };
         function menuInit() {
-            if (document.querySelector(".icon-menu")) document.addEventListener("click", (function(e) {
-                if (bodyLockStatus && e.target.closest(".icon-menu")) {
+            if (document.querySelector(".hamburger")) document.addEventListener("click", (function(e) {
+                if (bodyLockStatus && e.target.closest(".hamburger")) {
                     bodyLockToggle();
                     document.documentElement.classList.toggle("menu-open");
                 }
@@ -8300,7 +8300,7 @@
                     disableOnInteraction: false
                 },
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".pagination",
                     clickable: true
                 },
                 breakpoints: {
@@ -8313,7 +8313,7 @@
                 },
                 on: {
                     init: function() {
-                        let bullets = document.querySelectorAll(".slider-hero-mainpage__control .swiper-pagination-bullet");
+                        let bullets = document.querySelectorAll(".hero-mainpage__pagination .swiper-pagination-bullet");
                         bullets.forEach(((bullet, index) => {
                             let number;
                             if (index < 10) number = `0`;

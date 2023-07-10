@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230207124333">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230710175052">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +16,7 @@
 	<div class="wrapper">
 		<header data-scroll="100" data-scroll-show class="header">
 			<div class="header__container header__container_large">
-				<div class="header__logo logo-header">
-					<a href="#" class="logo-header__link"><img src="img/logo.svg" alt="" /></a>
-				</div>
+				<a href="#" class="header__logo"><img data-src="img/logo.svg" alt="" aria-hidden="true" class="header__logo-img" /></a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
@@ -33,602 +31,596 @@
 					</nav>
 				</div>
 				<div data-da=".menu__body, 479.98, last" class="header__actions actions-header">
-					<div class="actions-header__item">
-						<a href="#" class="actions-header__link"><span>Log In / Registration</span></a>
+					<div class="actions-header__item-wrap">
+						<button type="button" class="actions-header__item">
+							<span class="actions-header__item-txt">Log In / Registration</span>
+						</button>
 					</div>
-					<div class="actions-header__item">
-						<a href="#" class="actions-header__link"><span>Book Table</span></a>
+					<div class="actions-header__item-wrap">
+						<button type="button" class="actions-header__item">
+							<span class="actions-header__item-txt">Book Table</span>
+						</button>
 					</div>
 				</div>
-				<button type="button" class="icon-menu">
+				<button type="button" class="hamburger">
 					<span></span>
 				</button>
 			</div>
 		</header>
 
-		<main class="main">
-			<div class="mainpage">
-				<section class="mainpage__hero hero-mainpage">
-					<div class="hero-mainpage__container hero-mainpage__container_large">
-						<div class="hero-mainpage__container hero-mainpage__container_small">
-							<div class="hero-mainpage__slider slider-hero-mainpage swiper">
-								<div class="slider-hero-mainpage__wrapper swiper-wrapper">
-									<div class="slider-hero-mainpage__slide slide-slider-hero-mainpage swiper-slide">
-										<div class="slide-slider-hero-mainpage__content">
-											<div class="slide-slider-hero-mainpage__head head">
-												<p class="head__subheading">Chase The New Flavour</p>
-												<h2 class="head__title main-title _icon-spoon">
-													The Key To Fine Dining
-												</h2>
-											</div>
-											<p class="slide-slider-hero-mainpage__text text">
-												Sit tellus lobortis sed senectus vivamus molestie.
-												Condimentum volutpat morbi facilisis quam scelerisque
-												sapien. Et, penatibus aliquam amet tellus
-											</p>
-											<a href="#" class="slide-slider-hero-mainpage__btn btn"><span>Explore Now</span></a>
+		<main class="main mainpage">
+			<section class="mainpage__hero hero-mainpage">
+				<div class="hero-mainpage__container hero-mainpage__container_large">
+					<div class="hero-mainpage__container hero-mainpage__container_small">
+						<div class="hero-mainpage__slider swiper">
+							<div class="hero-mainpage__wrapper swiper-wrapper">
+								<div class="hero-mainpage__slide slide-hero-mainpage swiper-slide">
+									<div class="slide-hero-mainpage__content">
+										<div class="slide-hero-mainpage__head head">
+											<span class="head__subheading">Chase The New Flavour</span>
+											<h1 class="head__title title _icon-spoon">
+												The Key To Fine Dining
+											</h1>
 										</div>
-										<a href="#" class="slide-slider-hero-mainpage__image-ibg image-block"><picture><source data-srcset="img/hero-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/01.jpg" alt="" /></picture></a>
+										<p class="slide-hero-mainpage__text txt">
+											Sit tellus lobortis sed senectus vivamus molestie.
+											Condimentum volutpat morbi facilisis quam scelerisque
+											sapien. Et, penatibus aliquam amet tellus
+										</p>
+										<a href="#" class="slide-hero-mainpage__btn btn"><span class="btn__text">Explore Now</span></a>
 									</div>
-									<div class="slider-hero-mainpage__slide slide-slider-hero-mainpage swiper-slide">
-										<div class="slide-slider-hero-mainpage__content">
-											<div class="slide-slider-hero-mainpage__head head">
-												<p class="head__subheading">Chase The New Flavour</p>
-												<h2 class="head__title main-title _icon-spoon">
-													The Key To Fine Dining
-												</h2>
-											</div>
-											<p class="slide-slider-hero-mainpage__text text">
-												Sit tellus lobortis sed senectus vivamus molestie.
-												Condimentum volutpat morbi facilisis
-											</p>
-											<a href="#" class="slide-slider-hero-mainpage__btn btn"><span>Explore Now</span></a>
-										</div>
-										<a href="#" class="slide-slider-hero-mainpage__image-ibg image-block"><picture><source data-srcset="img/hero-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/02.jpg" alt="" /></picture></a>
-									</div>
-									<div class="slider-hero-mainpage__slide slide-slider-hero-mainpage swiper-slide">
-										<div class="slide-slider-hero-mainpage__content">
-											<div class="slide-slider-hero-mainpage__head head">
-												<p class="head__subheading">Chase The New Flavour</p>
-												<h2 class="head__title main-title _icon-spoon">
-													The Key To Fine Dining
-												</h2>
-											</div>
-											<p class="slide-slider-hero-mainpage__text text">
-												Sit tellus lobortis sed senectus vivamus molestie.
-												Condimentum volutpat morbi facilisis quam scelerisque
-												sapien. Et, penatibus aliquam amet tellus morbi
-												facilisis quam scelerisque sapien. Et, penatibus
-												aliquam amet tellus
-											</p>
-											<a href="#" class="slide-slider-hero-mainpage__btn btn"><span>Explore Now</span></a>
-										</div>
-										<a href="#" class="slide-slider-hero-mainpage__image-ibg image-block"><picture><source data-srcset="img/hero-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/03.jpg" alt="" /></picture></a>
-									</div>
+									<a href="#" class="slide-hero-mainpage__image-ibg img-block"><picture><source data-srcset="img/hero-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/01.jpg" alt="" class="img-block__image" /></picture></a>
 								</div>
-								<div class="slider-hero-mainpage__control swiper-pagination"></div>
+								<div class="hero-mainpage__slide slide-hero-mainpage swiper-slide">
+									<div class="slide-hero-mainpage__content">
+										<div class="slide-hero-mainpage__head head">
+											<span class="head__subheading">Chase The New Flavour</span>
+											<h1 class="head__title title _icon-spoon">
+												The Key To Fine Dining
+											</h1>
+										</div>
+										<p class="slide-hero-mainpage__text txt">
+											Sit tellus lobortis sed senectus vivamus molestie.
+											Condimentum volutpat morbi facilisis quam scelerisque
+											sapien. Et, penatibus aliquam amet tellus
+										</p>
+										<a href="#" class="slide-hero-mainpage__btn btn"><span class="btn__text">Explore Now</span></a>
+									</div>
+									<a href="#" class="slide-hero-mainpage__image-ibg img-block"><picture><source data-srcset="img/hero-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/02.jpg" alt="" class="img-block__image" /></picture></a>
+								</div>
+								<div class="hero-mainpage__slide slide-hero-mainpage swiper-slide">
+									<div class="slide-hero-mainpage__content">
+										<div class="slide-hero-mainpage__head head">
+											<span class="head__subheading">Chase The New Flavour</span>
+											<h1 class="head__title title _icon-spoon">
+												The Key To Fine Dining
+											</h1>
+										</div>
+										<p class="slide-hero-mainpage__text txt">
+											Sit tellus lobortis sed senectus vivamus molestie.
+											Condimentum volutpat morbi facilisis quam scelerisque
+											sapien. Et, penatibus aliquam amet tellus. Condimentum
+											volutpat morbi facilisis quam scelerisque sapien. Et,
+											penatibus aliquam amet tellus
+										</p>
+										<a href="#" class="slide-hero-mainpage__btn btn"><span class="btn__text">Explore Now</span></a>
+									</div>
+									<a href="#" class="slide-hero-mainpage__image-ibg img-block"><picture><source data-srcset="img/hero-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero-mainpage/03.jpg" alt="" class="img-block__image" /></picture></a>
+								</div>
 							</div>
+							<div class="hero-mainpage__pagination pagination"></div>
 						</div>
-						<nav data-da=".hero-mainpage__container_small, 1440.98, first" class="hero-mainpage__nav nav-hero-mainpage">
-							<a href="#" class="nav-hero-mainpage__link">#Bar</a>
-							<a href="#" class="nav-hero-mainpage__link nav-hero-mainpage__link_active">#Gericht</a>
-						</nav>
-						<div data-goto=".mainpage__about" data-da=".hero-mainpage__container_small, 1440.98, last" class="hero-mainpage__scroll scroll">
-							<span>scroll</span>
+					</div>
+					<nav data-da=".hero-mainpage__container_small, 1440.98, first" class="hero-mainpage__nav nav-hero-mainpage">
+						<a href="#" class="nav-hero-mainpage__link">#Bar</a>
+						<a href="#" class="nav-hero-mainpage__link nav-hero-mainpage__link_active">#Gericht</a>
+					</nav>
+					<div data-goto=".mainpage__about" data-da=".hero-mainpage__container_small, 1440.98, last" class="hero-mainpage__scroll scroll">
+						<span class="scroll__text">scroll</span>
+					</div>
+				</div>
+			</section>
+			<div class="mainpage__body">
+				<section class="mainpage__about about-mainpage bg">
+					<div data-watch data-watch-threshold="0.5" data-watch-once class="about-mainpage__container">
+						<div class="about-mainpage__column about-mainpage__column_left">
+							<h3 class="about-mainpage__title h3">About Us</h3>
+							<p class="about-mainpage__text txt">
+								Lorem ipsum dolor, consectetur adipiscing elit. Quis pharetra
+								adipiscing ultrices vulputate posuere tristique. In sed odio
+								nec aliquet eu proin mauris et
+							</p>
+							<a href="#" class="about-mainpage__btn btn"><span class="btn__text">Know More</span></a>
+						</div>
+						<div class="about-mainpage__image-wrap _vertical-anim">
+							<picture><source data-srcset="img/deco-elements/knife.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/deco-elements/knife.png" alt="knife" class="about-mainpage__image" /></picture>
+						</div>
+						<div class="about-mainpage__column about-mainpage__column_right">
+							<h3 class="about-mainpage__title h3">Our History</h3>
+							<p class="about-mainpage__text txt">
+								Lorem ipsum dolor, consectetur adipiscing elit. Quis pharetra
+								adipiscing ultrices vulputate posuere tristique. In sed odio
+								nec aliquet eu proin mauris et
+							</p>
+							<a href="#" class="about-mainpage__btn btn"><span class="btn__text">Know More</span></a>
 						</div>
 					</div>
 				</section>
-				<div class="mainpage__body">
-					<section class="mainpage__about about-mainpage background">
-						<div data-watch data-watch-threshold="0.5" data-watch-once class="about-mainpage__container">
-							<div class="about-mainpage__column about-mainpage__column_left">
-								<h3 class="about-mainpage__title h3">About Us</h3>
-								<p class="about-mainpage__text text">
-									Lorem ipsum dolor, consectetur adipiscing elit. Quis
-									pharetra adipiscing ultrices vulputate posuere tristique. In
-									sed odio nec aliquet eu proin mauris et
-								</p>
-								<a href="#" class="about-mainpage__btn btn"><span>Know More</span></a>
+				<section class="mainpage__book book-mainpage">
+					<div data-watch data-watch-threshold="0.4" data-watch-once class="book-mainpage__container book-mainpage__container_large">
+						<div class="book-mainpage__body _vertical-anim">
+							<div class="book-mainpage__head head">
+								<span class="head__subheading">Reservation</span>
+								<h2 class="head__title h2 _icon-spoon">Book Table</h2>
 							</div>
-							<div class="about-mainpage__knife _vertical-anim">
-								<picture><source srcset="img/deco-elements/knife.webp" type="image/webp"><img src="img/deco-elements/knife.png" alt="" /></picture>
-							</div>
-							<div class="about-mainpage__column about-mainpage__column_right">
-								<h3 class="about-mainpage__title h3">Our History</h3>
-								<p class="about-mainpage__text text">
-									Lorem ipsum dolor, consectetur adipiscing elit. Quis
-									pharetra adipiscing ultrices vulputate posuere tristique. In
-									sed odio nec aliquet eu proin mauris et
-								</p>
-								<a href="#" class="about-mainpage__btn btn"><span>Know More</span></a>
-							</div>
+							<form data-dev data-popup-message="#formMessage" action="#" class="book-mainpage__form form">
+								<div data-one-select class="form__row">
+									<div class="form__item">
+										<select name="form[]">
+											<option value="1" selected>1 Person</option>
+											<option value="2">2 People</option>
+											<option value="3">3 People</option>
+											<option value="4">4 People</option>
+										</select>
+									</div>
+									<div class="form__item">
+										<div class="form__input _icon-select-arrow">
+											<input data-validate data-required autocomplete="off" type="text" name="form[]" data-error="please pick a day" data-calendar class="input" />
+										</div>
+									</div>
+									<div class="form__item">
+										<select data-scroll name="form[]">
+											<option value="1" selected>11:00 AM</option>
+											<option value="2">12:00 AM</option>
+											<option value="3">1:00 PM</option>
+											<option value="4">2:00 PM</option>
+											<option value="5">3:00 PM</option>
+											<option value="6">4:00 PM</option>
+											<option value="7">5:00 PM</option>
+											<option value="8">6:00 PM</option>
+										</select>
+									</div>
+								</div>
+								<button class="form__btn btn" type="submit">
+									<span class="btn__text">Book Now</span>
+								</button>
+							</form>
 						</div>
-					</section>
-					<section class="mainpage__book book-mainpage">
-						<div data-watch data-watch-threshold="0.4" data-watch-once class="book-mainpage__container book-mainpage__container_large">
-							<div class="book-mainpage__body _vertical-anim">
-								<div class="book-mainpage__head head">
-									<p class="head__subheading">Reservation</p>
-									<h2 class="head__title h2 _icon-spoon">Book Table</h2>
-								</div>
-								<form data-dev data-popup-message="#formMessage" action="#" class="book-mainpage__form form">
-									<div data-one-select class="form__row">
-										<div class="form__item">
-											<select name="form[]">
-												<option value="1" selected>1 Person</option>
-												<option value="2">2 People</option>
-												<option value="3">3 People</option>
-												<option value="4">4 People</option>
-											</select>
-										</div>
-										<div class="form__item">
-											<div class="form__input _icon-select-arrow">
-												<input data-validate data-required autocomplete="off" type="text" name="form[]" data-error="please pick a day" data-calendar class="input" />
-											</div>
-										</div>
-										<div class="form__item">
-											<select data-scroll name="form[]">
-												<option value="1" selected>11:00 AM</option>
-												<option value="2">12:00 AM</option>
-												<option value="3">1:00 PM</option>
-												<option value="4">2:00 PM</option>
-												<option value="5">3:00 PM</option>
-												<option value="6">4:00 PM</option>
-												<option value="7">5:00 PM</option>
-												<option value="8">6:00 PM</option>
-											</select>
-										</div>
-									</div>
-									<button class="form__btn btn" type="submit">
-										<span>Book Now</span>
-									</button>
-								</form>
-							</div>
-						</div>
-					</section>
-					<section class="mainpage__menu menu-mainpage">
-						<div data-watch data-watch-once class="menu-mainpage__container">
-							<div class="menu-mainpage__head head _vertical-anim">
-								<p class="head__subheading">Wide Range to choose from</p>
-								<h2 class="head__title h2 _icon-spoon">
-									What’s Your Poison?
-								</h2>
-							</div>
-							<div class="menu-mainpage__body">
-								<div class="menu-mainpage__grid">
-									<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
-										<a href="#" class="item-menu-mainpage__link">
-											<span class="item-menu-mainpage__label">Beer</span>
-											<div class="item-menu-mainpage__image-ibg">
-												<picture><source srcset="img/menu-mainpage/01.webp" type="image/webp"><img src="img/menu-mainpage/01.jpg" alt="" /></picture>
-											</div>
-										</a>
-									</div>
-									<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
-										<a href="#" class="item-menu-mainpage__link">
-											<span class="item-menu-mainpage__label">Wine</span>
-											<div class="item-menu-mainpage__image-ibg">
-												<picture><source srcset="img/menu-mainpage/02.webp" type="image/webp"><img src="img/menu-mainpage/02.jpg" alt="" /></picture>
-											</div>
-										</a>
-									</div>
-									<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
-										<a href="#" class="item-menu-mainpage__link">
-											<span class="item-menu-mainpage__label">Cocktails</span>
-											<div class="item-menu-mainpage__image-ibg">
-												<picture><source srcset="img/menu-mainpage/03.webp" type="image/webp"><img src="img/menu-mainpage/03.jpg" alt="" /></picture>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="mainpage__special special-mainpage">
-						<div data-watch data-watch-threshold="0.3" data-watch-once class="special-mainpage__container">
-							<div class="special-mainpage__head head _vertical-anim">
-								<p class="head__subheading">Menu That Fits Your Palate</p>
-								<h2 class="head__title h2 _icon-spoon">Today's Special</h2>
-							</div>
-							<div class="special-mainpage__body table">
-								<div class="table__row">
-									<div class="table__list list-table _left-anim">
-										<h3 class="list-table__title h3">Wine & Beer</h3>
-										<div class="list-table__body">
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Chapel Hill Shiraz
-													</div>
-													<div class="item-list-table__price">$56</div>
-												</div>
-												<div class="item-list-table__info">AU | Bottle</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Catena Malbee
-													</div>
-													<div class="item-list-table__price">$59</div>
-												</div>
-												<div class="item-list-table__info">AR | Bottle</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														La Vieille Rosé
-													</div>
-													<div class="item-list-table__price">$44</div>
-												</div>
-												<div class="item-list-table__info">FR | 750 ml</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Rhino Pale Ale
-													</div>
-													<div class="item-list-table__price">$31</div>
-												</div>
-												<div class="item-list-table__info">CA | 750 ml</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Irish Guinness
-													</div>
-													<div class="item-list-table__price">$26</div>
-												</div>
-												<div class="item-list-table__info">IE | 750 ml</div>
-											</div>
-										</div>
-									</div>
-									<div class="table__img">
-										<picture><source data-srcset="img/special-mainpage/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/special-mainpage/image.png" alt="" /></picture>
-									</div>
-									<div class="table__list list-table _right-anim">
-										<h3 class="list-table__title h3">Cocktails</h3>
-										<div class="list-table__body">
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Aperol Spritz
-													</div>
-													<div class="item-list-table__price">$20</div>
-												</div>
-												<div class="item-list-table__info">
-													Aperol | Villa Marchesi prosecco | soda | 30ml
-												</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Dark 'N' Stormy
-													</div>
-													<div class="item-list-table__price">$16</div>
-												</div>
-												<div class="item-list-table__info">
-													Dark rum | Ginger beer | Slice of lime.
-												</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">Daiquiri</div>
-													<div class="item-list-table__price">$10</div>
-												</div>
-												<div class="item-list-table__info">
-													Rum | Citrus juice | Sugar
-												</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">
-														Old Fashioned
-													</div>
-													<div class="item-list-table__price">$31</div>
-												</div>
-												<div class="item-list-table__info">
-													Bourbon | Brown sugar | Angostura Bitters
-												</div>
-											</div>
-											<div class="list-table__item item-list-table">
-												<div class="item-list-table__row">
-													<div class="item-list-table__heading">Negroni</div>
-													<div class="item-list-table__price">$26</div>
-												</div>
-												<div class="item-list-table__info">
-													Gin | Sweet Vermouth | Campari | Orange garnish
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<a href="#" class="special-mainpage__btn btn"><span>View More</span></a>
-						</div>
-					</section>
-					<section class="mainpage__quotes quotes-mainpage background">
-						<div data-watch data-watch-threshold="0.3" data-watch-once class="quotes-mainpage__container">
-							<div class="quotes-mainpage__slider quotes-slider swiper">
-								<div class="quotes-slider__wrapper swiper-wrapper">
-									<div class="quotes-slider__slide slide-quotes-slider swiper-slide">
-										<a href="#" class="slide-quotes-slider__image-ibg image-block _left-anim"><picture><source srcset="img/quotes-mainpage/01.webp" type="image/webp"><img src="img/quotes-mainpage/01.jpg" alt="" /></picture></a>
-										<div class="slide-quotes-slider__content _right-anim">
-											<div class="slide-quotes-slider__head head">
-												<p class="head__subheading">Chef’s Word</p>
-												<h2 class="head__title h2 _icon-spoon">
-													What we believe in
-												</h2>
-											</div>
-											<p class="slide-quotes-slider__text text _icon-quote">
-												Lorem ipsum dolor sit amet, consectetur adipiscing
-												elit auctor sit. auctor sit iaculis in arcu. Vulputate
-												nulla lobortis mauris eget sit. Nulla scelerisque
-												scelerisque congue ac consequat, aliquam molestie
-												lectus eu. Congue iaculis integer curabitur semper sit
-												nunc.
-											</p>
-											<div class="slide-quotes-slider__info info">
-												<span class="info__name">Kevin Luo</span>
-												<span class="info__text text"> Chef & Founder </span>
-											</div>
-											<span class="slide-quotes-slider__name">Kevin Luo</span>
-										</div>
-									</div>
-									<div class="quotes-slider__slide slide-quotes-slider swiper-slide">
-										<a href="#" class="slide-quotes-slider__image-ibg image-block _left-anim"><picture><source srcset="img/quotes-mainpage/02.webp" type="image/webp"><img src="img/quotes-mainpage/02.jpg" alt="" /></picture></a>
-										<div class="slide-quotes-slider__content _right-anim">
-											<div class="slide-quotes-slider__head head">
-												<p class="head__subheading">Chef’s Word</p>
-												<h2 class="head__title h2 _icon-spoon">
-													What we believe in
-												</h2>
-											</div>
-											<p class="slide-quotes-slider__text text _icon-quote">
-												Lorem ipsum dolor sit amet, consectetur adipiscing
-												elit auctor sit. auctor sit iaculis in arcu. Vulputate
-												nulla lobortis mauris eget sit. Nulla scelerisque
-												scelerisque congue ac consequat.
-											</p>
-											<div class="slide-quotes-slider__info info">
-												<span class="info__name">James Hill</span>
-												<span class="info__text text"> Chef </span>
-											</div>
-											<span class="slide-quotes-slider__name">James Hill</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="mainpage__customers customers-mainpage">
-						<div data-watch data-watch-once class="customers-mainpage__container">
-							<div class="customers-mainpage__head head _vertical-anim">
-								<p class="head__subheading">Testimony</p>
-								<h2 class="head__title h2 _icon-spoon">Happy Customers</h2>
-							</div>
-							<div class="customers-mainpage__row">
-								<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
-									<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/01.jpg" alt="" /></picture></a>
-									<div class="item-customers-mainpage__content">
-										<p class="item-customers-mainpage__text text">
-											Lorem ipsum dolor sit amet, consectetur adipiscing sit.
-											auctor sit iaculis in arcu. Vulputate nulla lobortis
-											mauris eget sit. Nulla scelerisque scelerisque congue.
-										</p>
-										<div class="item-customers-mainpage__info info">
-											<span class="info__name">Wade Warren</span>
-											<span class="info__text text">Sommelier</span>
-										</div>
-									</div>
-								</div>
-								<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
-									<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/02.jpg" alt="" /></picture></a>
-									<div class="item-customers-mainpage__content">
-										<p class="item-customers-mainpage__text text">
-											Lorem ipsum dolor sit amet, consectetur adipiscing sit.
-											auctor sit iaculis in arcu.
-										</p>
-										<div class="item-customers-mainpage__info info">
-											<span class="info__name">Jane Cooper</span>
-											<span class="info__text text">Chef</span>
-										</div>
-									</div>
-								</div>
-								<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
-									<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/03.jpg" alt="" /></picture></a>
-									<div class="item-customers-mainpage__content">
-										<p class="item-customers-mainpage__text text">
-											Lorem ipsum dolor sit amet, consectetur adipiscing sit.
-											auctor sit iaculis in arcu. Vulputate nulla lobortis
-											mauris eget sit.
-										</p>
-										<div class="item-customers-mainpage__info info">
-											<span class="info__name">Robert Fox</span>
-											<span class="info__text text">Chef</span>
-										</div>
-									</div>
-								</div>
-								<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
-									<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/04.jpg" alt="" /></picture></a>
-									<div class="item-customers-mainpage__content">
-										<p class="item-customers-mainpage__text text">
-											Lorem ipsum dolor sit amet, consectetur adipiscing sit.
-											auctor sit iaculis in arcu. Vulputate nulla lobortis
-											mauris eget sit. Nulla scelerisque scelerisque congue.
-										</p>
-										<div class="item-customers-mainpage__info info">
-											<span class="info__name">Brooklyn Simmons</span>
-											<span class="info__text text">Caterer</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<div data-watch="video" class="mainpage__video video-module _active">
-						<video muted src="files/dish.mp4" class="video-module__item"></video>
 					</div>
-					<section class="mainpage__contact contact-mainpage background">
-						<div data-watch data-watch-threshold="0.3" data-watch-once class="contact-mainpage__container">
-							<div class="contact-mainpage__content _left-anim">
-								<div class="contact-mainpage__head head">
-									<p class="head__subheading">Contact</p>
-									<h2 class="head__title h2 _icon-spoon">Find Us</h2>
+				</section>
+				<section class="mainpage__menu menu-mainpage">
+					<div data-watch data-watch-once class="menu-mainpage__container">
+						<div class="menu-mainpage__head head _vertical-anim">
+							<span class="head__subheading">Wide Range to choose from</span>
+							<h2 class="head__title h2 _icon-spoon">What’s Your Poison?</h2>
+						</div>
+						<div class="menu-mainpage__body">
+							<div class="menu-mainpage__grid">
+								<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
+									<a href="#" class="item-menu-mainpage__link">
+										<span class="item-menu-mainpage__label">Beer</span>
+										<div class="item-menu-mainpage__image-ibg">
+											<picture><source srcset="img/menu-mainpage/01.webp" type="image/webp"><img src="img/menu-mainpage/01.jpg" alt="" aria-hidden="true" /></picture>
+										</div>
+									</a>
 								</div>
-								<p class="contact-mainpage__text text">
-									Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
-								</p>
-								<div class="contact-mainpage__table table-contact-mainpage">
-									<span class="table-contact-mainpage__heading">Opening Hours</span>
-									<p class="table-contact-mainpage__text text">
-										Mon - Fri: 10:00 am - 02:00 am
+								<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
+									<a href="#" class="item-menu-mainpage__link">
+										<span class="item-menu-mainpage__label">Wine</span>
+										<div class="item-menu-mainpage__image-ibg">
+											<picture><source srcset="img/menu-mainpage/02.webp" type="image/webp"><img src="img/menu-mainpage/02.jpg" alt="" aria-hidden="true" /></picture>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-threshold="0.2" data-watch-once class="menu-mainpage__item item-menu-mainpage">
+									<a href="#" class="item-menu-mainpage__link">
+										<span class="item-menu-mainpage__label">Cocktails</span>
+										<div class="item-menu-mainpage__image-ibg">
+											<picture><source srcset="img/menu-mainpage/03.webp" type="image/webp"><img src="img/menu-mainpage/03.jpg" alt="" aria-hidden="true" /></picture>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="mainpage__special special-mainpage">
+					<div data-watch data-watch-threshold="0.3" data-watch-once class="special-mainpage__container">
+						<div class="special-mainpage__head head _vertical-anim">
+							<span class="head__subheading">Menu That Fits Your Palate</span>
+							<h2 class="head__title h2 _icon-spoon">Today's Special</h2>
+						</div>
+						<div class="special-mainpage__body table">
+							<div class="table__row">
+								<div class="table__list list-table _left-anim">
+									<h3 class="list-table__title h3">Wine & Beer</h3>
+									<div class="list-table__body">
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Chapel Hill Shiraz
+												</div>
+												<div class="item-list-table__price">$56</div>
+											</div>
+											<div class="item-list-table__info">AU | Bottle</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Catena Malbee
+												</div>
+												<div class="item-list-table__price">$59</div>
+											</div>
+											<div class="item-list-table__info">AR | Bottle</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													La Vieille Rosé
+												</div>
+												<div class="item-list-table__price">$44</div>
+											</div>
+											<div class="item-list-table__info">FR | 750 ml</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Rhino Pale Ale
+												</div>
+												<div class="item-list-table__price">$31</div>
+											</div>
+											<div class="item-list-table__info">CA | 750 ml</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Irish Guinness
+												</div>
+												<div class="item-list-table__price">$26</div>
+											</div>
+											<div class="item-list-table__info">IE | 750 ml</div>
+										</div>
+									</div>
+								</div>
+								<div class="table__image-wrap">
+									<picture><source data-srcset="img/special-mainpage/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/special-mainpage/image.png" alt="" aria-hidden="true" class="table__image" /></picture>
+								</div>
+								<div class="table__list list-table _right-anim">
+									<h3 class="list-table__title h3">Cocktails</h3>
+									<div class="list-table__body">
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Aperol Spritz
+												</div>
+												<div class="item-list-table__price">$20</div>
+											</div>
+											<div class="item-list-table__info">
+												Aperol | Villa Marchesi prosecco | soda | 30ml
+											</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Dark 'N' Stormy
+												</div>
+												<div class="item-list-table__price">$16</div>
+											</div>
+											<div class="item-list-table__info">
+												Dark rum | Ginger beer | Slice of lime.
+											</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">Daiquiri</div>
+												<div class="item-list-table__price">$10</div>
+											</div>
+											<div class="item-list-table__info">
+												Rum | Citrus juice | Sugar
+											</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">
+													Old Fashioned
+												</div>
+												<div class="item-list-table__price">$31</div>
+											</div>
+											<div class="item-list-table__info">
+												Bourbon | Brown sugar | Angostura Bitters
+											</div>
+										</div>
+										<div class="list-table__item item-list-table">
+											<div class="item-list-table__row">
+												<div class="item-list-table__heading">Negroni</div>
+												<div class="item-list-table__price">$26</div>
+											</div>
+											<div class="item-list-table__info">
+												Gin | Sweet Vermouth | Campari | Orange garnish
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="special-mainpage__btn btn"><span class="btn__text">View More</span></a>
+					</div>
+				</section>
+				<section class="mainpage__quotes quotes-mainpage bg">
+					<div data-watch data-watch-threshold="0.3" data-watch-once class="quotes-mainpage__container">
+						<div class="quotes-mainpage__slider swiper">
+							<div class="quotes-mainpage__wrapper swiper-wrapper">
+								<div class="quotes-mainpage__slide slide-quotes-mainpage swiper-slide">
+									<a href="#" class="slide-quotes-mainpage__image-ibg img-block _left-anim"><picture><source data-srcset="img/quotes-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/quotes-mainpage/01.jpg" alt="" class="img-block__image" aria-hidden="true" /></picture></a>
+									<div class="slide-quotes-mainpage__content _right-anim">
+										<div class="slide-quotes-mainpage__head head">
+											<span class="head__subheading">Chef’s Word</span>
+											<h2 class="head__title h2 _icon-spoon">
+												What we believe in
+											</h2>
+										</div>
+										<p class="slide-quotes-mainpage__text txt _icon-quote">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit
+											auctor sit. auctor sit iaculis in arcu. Vulputate nulla
+											lobortis mauris eget sit. Nulla scelerisque scelerisque
+											congue ac consequat, aliquam molestie lectus eu. Congue
+											iaculis integer curabitur semper sit nunc.
+										</p>
+										<div class="slide-quotes-mainpage__info info">
+											<span class="info__name">Kevin Luo</span>
+											<span class="info__text txt"> Chef & Founder </span>
+										</div>
+										<span class="slide-quotes-mainpage__name">Kevin Luo</span>
+									</div>
+								</div>
+								<div class="quotes-slider__slide slide-quotes-mainpage swiper-slide">
+									<a href="#" class="slide-quotes-mainpage__image-ibg img-block _left-anim"><picture><source data-srcset="img/quotes-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/quotes-mainpage/02.jpg" alt="" class="img-block__image" aria-hidden="true" /></picture></a>
+									<div class="slide-quotes-mainpage__content _right-anim">
+										<div class="slide-quotes-mainpage__head head">
+											<span class="head__subheading">Chef’s Word</span>
+											<h2 class="head__title h2 _icon-spoon">
+												What we believe in
+											</h2>
+										</div>
+										<p class="slide-quotes-mainpage__text txt _icon-quote">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit
+											auctor sit. auctor sit iaculis in arcu. Vulputate nulla
+											lobortis mauris eget sit. Nulla scelerisque scelerisque
+											congue ac consequat.
+										</p>
+										<div class="slide-quotes-mainpage__info info">
+											<span class="info__name">James Hill</span>
+											<span class="info__text txt"> Chef </span>
+										</div>
+										<span class="slide-quotes-mainpage__name">James Hill</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="mainpage__customers customers-mainpage">
+					<div data-watch data-watch-once class="customers-mainpage__container">
+						<div class="customers-mainpage__head head _vertical-anim">
+							<span class="head__subheading">Testimony</span>
+							<h2 class="head__title h2 _icon-spoon">Happy Customers</h2>
+						</div>
+						<div class="customers-mainpage__row">
+							<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
+								<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/01.jpg" alt="" aria-hidden="true" class="item-customers-mainpage__image" /></picture></a>
+								<div class="item-customers-mainpage__content">
+									<p class="item-customers-mainpage__text txt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+										auctor sit iaculis in arcu. Vulputate nulla lobortis
+										mauris eget sit. Nulla scelerisque scelerisque congue.
 									</p>
-									<p class="table-contact-mainpage__text text">
-										Sat - Sun: 10:00 am - 03:00 am
+									<div class="item-customers-mainpage__info info">
+										<span class="info__name">Wade Warren</span>
+										<span class="info__text txt">Sommelier</span>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
+								<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/02.jpg" alt="" aria-hidden="true" class="item-customers-mainpage__image" /></picture></a>
+								<div class="item-customers-mainpage__content">
+									<p class="item-customers-mainpage__text txt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+										auctor sit iaculis in arcu.
 									</p>
-								</div>
-								<a href="#" class="contact-mainpage__btn btn"><span>Visit Us</span></a>
-							</div>
-							<a href="#" class="contact-mainpage__image-ibg image-block _right-anim"><picture><source srcset="img/contact-mainpage/image.webp" type="image/webp"><img src="img/contact-mainpage/image.jpg" alt="" /></picture></a>
-						</div>
-					</section>
-					<section class="mainpage__blog blog-mainpage">
-						<div data-watch data-watch-once class="blog-mainpage__container">
-							<div class="blog-mainpage__head head _vertical-anim">
-								<p class="head__subheading">Blog</p>
-								<h2 class="head__title h2 _icon-spoon">Gerícht updates</h2>
-							</div>
-							<div class="blog-mainpage__row">
-								<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
-									<div class="item-blog-mainpage__body">
-										<a href="#" class="item-blog-mainpage__image-ibg"><picture><source srcset="img/blog-mainpage/01.webp" type="image/webp"><img src="img/blog-mainpage/01.jpg" alt="" /></picture></a>
-										<div class="item-blog-mainpage__content">
-											<div class="item-blog-mainpage__info">
-												<p class="item-blog-mainpage__date text">
-													16 Apr 2021
-												</p>
-												<span class="item-blog-mainpage__name text">-Annalisa L</span>
-											</div>
-											<a href="#" class="item-blog-mainpage__heading"><span>tips for prepping and caring for your grill</span></a>
-											<p class="item-blog-mainpage__text text">
-												Lorem ipsum dolor sit amet, consectetur adipiscing
-												elit. Volutpat mattis ipsum turpis elit elit
-												scelerisque egestas mus in.
-											</p>
-											<a href="#" class="item-blog-mainpage__link">Read More</a>
-										</div>
-									</div>
-								</div>
-								<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
-									<div class="item-blog-mainpage__body">
-										<a href="#" class="item-blog-mainpage__image-ibg"><picture><source srcset="img/blog-mainpage/02.webp" type="image/webp"><img src="img/blog-mainpage/02.jpg" alt="" /></picture></a>
-										<div class="item-blog-mainpage__content">
-											<div class="item-blog-mainpage__info">
-												<p class="item-blog-mainpage__date text">
-													23 May 2021
-												</p>
-												<span class="item-blog-mainpage__name text">-John Micheal</span>
-											</div>
-											<a href="#" class="item-blog-mainpage__heading"><span>summer cocktails and mocktails</span></a>
-											<p class="item-blog-mainpage__text text">
-												Lorem ipsum dolor sit amet, consectetur adipiscing
-												elit. Volutpat mattis ipsum turpis elit elit
-												scelerisque egestas mus in. Lorem ipsum dolor sit
-												amet, consectetur adipiscing elit.
-											</p>
-											<a href="#" class="item-blog-mainpage__link">Read More</a>
-										</div>
-									</div>
-								</div>
-								<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
-									<div class="item-blog-mainpage__body">
-										<a href="#" class="item-blog-mainpage__image-ibg"><picture><source srcset="img/blog-mainpage/03.webp" type="image/webp"><img src="img/blog-mainpage/03.jpg" alt="" /></picture></a>
-										<div class="item-blog-mainpage__content">
-											<div class="item-blog-mainpage__info">
-												<p class="item-blog-mainpage__date text">
-													06 Aug 2021
-												</p>
-												<span class="item-blog-mainpage__name text">-Fred W</span>
-											</div>
-											<a href="#" class="item-blog-mainpage__heading"><span>easy cooking for college students</span></a>
-											<p class="item-blog-mainpage__text text">
-												Lorem ipsum dolor sit amet, consectetur adipiscing
-												elit. Volutpat mattis ipsum turpis elit elit
-												scelerisque egestas mus
-											</p>
-											<a href="#" class="item-blog-mainpage__link">Read More</a>
-										</div>
+									<div class="item-customers-mainpage__info info">
+										<span class="info__name">Jane Cooper</span>
+										<span class="info__text txt">Chef</span>
 									</div>
 								</div>
 							</div>
-							<a href="#" class="blog-mainpage__btn btn"><span>View More</span></a>
-						</div>
-					</section>
-					<section class="mainpage__gallery gallery-mainpage background">
-						<div data-watch data-watch-threshold="0.3" data-watch-once class="gallery-mainpage__container">
-							<div class="gallery-mainpage__content">
-								<div class="gallery-mainpage__head head">
-									<p class="head__subheading">Instagram</p>
-									<h2 class="head__title h2 _icon-spoon">Photo Gallery</h2>
+							<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
+								<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/03.jpg" alt="" aria-hidden="true" class="item-customers-mainpage__image" /></picture></a>
+								<div class="item-customers-mainpage__content">
+									<p class="item-customers-mainpage__text txt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+										auctor sit iaculis in arcu. Vulputate nulla lobortis
+										mauris eget sit.
+									</p>
+									<div class="item-customers-mainpage__info info">
+										<span class="info__name">Robert Fox</span>
+										<span class="info__text txt">Chef</span>
+									</div>
 								</div>
-								<p class="gallery-mainpage__text text">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-									Odit officia nobis libero eaque quo error enim commodi optio
-									praesentium eum.
-								</p>
-								<a href="#" class="gallery-mainpage__btn btn"><span>View More</span></a>
 							</div>
-							<div class="gallery-mainpage__carousel">
-								<div class="gallery-mainpage__slider slider-gallery-mainpage swiper">
-									<div class="slider-gallery-mainpage__wrapper swiper-wrapper">
-										<a href="#" class="slider-gallery-mainpage__slide swiper-slide">
-											<div class="slider-gallery-mainpage__image-ibg">
-												<picture><source data-srcset="img/gallery-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/01.jpg" alt="" /></picture>
-											</div>
-										</a>
-										<a href="#" class="slider-gallery-mainpage__slide swiper-slide">
-											<div class="slider-gallery-mainpage__image-ibg">
-												<picture><source data-srcset="img/gallery-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/02.jpg" alt="" /></picture>
-											</div>
-										</a>
-										<a href="#" class="slider-gallery-mainpage__slide swiper-slide">
-											<div class="slider-gallery-mainpage__image-ibg">
-												<picture><source data-srcset="img/gallery-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/03.jpg" alt="" /></picture>
-											</div>
-										</a>
-										<a href="#" class="slider-gallery-mainpage__slide swiper-slide">
-											<div class="slider-gallery-mainpage__image-ibg">
-												<picture><source data-srcset="img/gallery-mainpage/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/04.jpg" alt="" /></picture>
-											</div>
-										</a>
+							<div data-watch data-watch-once class="customers-mainpage__item item-customers-mainpage">
+								<a href="#" class="item-customers-mainpage__image-ibg"><picture><source data-srcset="img/customers-mainpage/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/customers-mainpage/04.jpg" alt="" aria-hidden="true" class="item-customers-mainpage__image" /></picture></a>
+								<div class="item-customers-mainpage__content">
+									<p class="item-customers-mainpage__text txt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+										auctor sit iaculis in arcu. Vulputate nulla lobortis
+										mauris eget sit. Nulla scelerisque scelerisque congue.
+									</p>
+									<div class="item-customers-mainpage__info info">
+										<span class="info__name">Brooklyn Simmons</span>
+										<span class="info__text txt">Caterer</span>
 									</div>
 								</div>
 							</div>
 						</div>
-					</section>
+					</div>
+				</section>
+				<div data-watch="video" class="mainpage__video video-module _active">
+					<video muted src="files/dish.mp4" class="video-module__item"></video>
 				</div>
+				<section class="mainpage__contact contact-mainpage bg">
+					<div data-watch data-watch-threshold="0.3" data-watch-once class="contact-mainpage__container">
+						<div class="contact-mainpage__content _left-anim">
+							<div class="contact-mainpage__head head">
+								<span class="head__subheading">Contact</span>
+								<h2 class="head__title h2 _icon-spoon">Find Us</h2>
+							</div>
+							<p class="contact-mainpage__text txt">
+								Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG
+							</p>
+							<div class="contact-mainpage__table table-contact-mainpage">
+								<span class="table-contact-mainpage__heading">Opening Hours</span>
+								<p class="table-contact-mainpage__text txt">
+									Mon - Fri: 10:00 am - 02:00 am
+								</p>
+								<p class="table-contact-mainpage__text txt">
+									Sat - Sun: 10:00 am - 03:00 am
+								</p>
+							</div>
+							<a href="#" class="contact-mainpage__btn btn"><span class="btn__text">Visit Us</span></a>
+						</div>
+						<a href="#" class="contact-mainpage__image-ibg img-block _right-anim"><picture><source data-srcset="img/contact-mainpage/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/contact-mainpage/image.jpg" alt="" aria-hidden="true" class="img-block__image" /></picture></a>
+					</div>
+				</section>
+				<section class="mainpage__blog blog-mainpage">
+					<div data-watch data-watch-once class="blog-mainpage__container">
+						<div class="blog-mainpage__head head _vertical-anim">
+							<span class="head__subheading">Blog</span>
+							<h2 class="head__title h2 _icon-spoon">Gerícht updates</h2>
+						</div>
+						<div class="blog-mainpage__row">
+							<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
+								<div class="item-blog-mainpage__body">
+									<a href="#" class="item-blog-mainpage__image-ibg"><picture><source data-srcset="img/blog-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog-mainpage/01.jpg" alt="" aria-hidden="true" class="item-blog-mainpage__image" /></picture></a>
+									<div class="item-blog-mainpage__content">
+										<div class="item-blog-mainpage__info">
+											<time datetime="2021-04-16" class="item-blog-mainpage__date txt">16 Apr 2021</time>
+											<span class="item-blog-mainpage__name txt">-Annalisa L</span>
+										</div>
+										<a href="#" class="item-blog-mainpage__heading"><span class="item-blog-mainpage__heading-txt">tips for prepping and caring for your grill</span></a>
+										<p class="item-blog-mainpage__text txt">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Volutpat mattis ipsum turpis elit elit scelerisque
+											egestas mus in.
+										</p>
+										<a href="#" class="item-blog-mainpage__link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
+								<div class="item-blog-mainpage__body">
+									<a href="#" class="item-blog-mainpage__image-ibg"><picture><source data-srcset="img/blog-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog-mainpage/02.jpg" alt="" aria-hidden="true" class="item-blog-mainpage__image" /></picture></a>
+									<div class="item-blog-mainpage__content">
+										<div class="item-blog-mainpage__info">
+											<time datetime="2021-05-23" class="item-blog-mainpage__date txt">23 May 2021</time>
+											<span class="item-blog-mainpage__name txt">-John Micheal</span>
+										</div>
+										<a href="#" class="item-blog-mainpage__heading"><span class="item-blog-mainpage__heading-txt">summer cocktails and mocktails</span></a>
+										<p class="item-blog-mainpage__text txt">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Volutpat mattis ipsum turpis elit elit scelerisque
+											egestas mus in. Lorem ipsum dolor sit amet, consectetur
+											adipiscing elit.
+										</p>
+										<a href="#" class="item-blog-mainpage__link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-threshold="0.2" data-watch-once class="blog-mainpage__item item-blog-mainpage">
+								<div class="item-blog-mainpage__body">
+									<a href="#" class="item-blog-mainpage__image-ibg"><picture><source data-srcset="img/blog-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog-mainpage/03.jpg" alt="" aria-hidden="true" class="item-blog-mainpage__image" /></picture></a>
+									<div class="item-blog-mainpage__content">
+										<div class="item-blog-mainpage__info">
+											<time datetime="2021-08-06" class="item-blog-mainpage__date txt">06 Aug 2021</time>
+											<span class="item-blog-mainpage__name txt">-Fred W</span>
+										</div>
+										<a href="#" class="item-blog-mainpage__heading"><span class="item-blog-mainpage__heading-txt">easy cooking for college students</span></a>
+										<p class="item-blog-mainpage__text txt">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Volutpat mattis ipsum turpis elit elit scelerisque
+											egestas mus
+										</p>
+										<a href="#" class="item-blog-mainpage__link">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="blog-mainpage__btn btn"><span class="btn__text">View More</span></a>
+					</div>
+				</section>
+				<section class="mainpage__gallery gallery-mainpage bg">
+					<div data-watch data-watch-threshold="0.3" data-watch-once class="gallery-mainpage__container">
+						<div class="gallery-mainpage__content">
+							<div class="gallery-mainpage__head head">
+								<span class="head__subheading">Instagram</span>
+								<h2 class="head__title h2 _icon-spoon">Photo Gallery</h2>
+							</div>
+							<p class="gallery-mainpage__text txt">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+								officia nobis libero eaque quo error enim commodi optio
+								praesentium eum.
+							</p>
+							<a href="#" class="gallery-mainpage__btn btn"><span class="btn__text">View More</span></a>
+						</div>
+						<div class="gallery-mainpage__carousel">
+							<div class="gallery-mainpage__slider swiper">
+								<div class="gallery-mainpage__wrapper swiper-wrapper">
+									<a href="#" class="gallery-mainpage__slide swiper-slide">
+										<div class="gallery-mainpage__image-ibg">
+											<picture><source data-srcset="img/gallery-mainpage/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/01.jpg" alt="" class="gallery-mainpage__image" /></picture>
+										</div>
+									</a>
+									<a href="#" class="gallery-mainpage__slide swiper-slide">
+										<div class="gallery-mainpage__image-ibg">
+											<picture><source data-srcset="img/gallery-mainpage/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/02.jpg" alt="" class="gallery-mainpage__image" /></picture>
+										</div>
+									</a>
+									<a href="#" class="gallery-mainpage__slide swiper-slide">
+										<div class="gallery-mainpage__image-ibg">
+											<picture><source data-srcset="img/gallery-mainpage/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/03.jpg" alt="" class="gallery-mainpage__image" /></picture>
+										</div>
+									</a>
+									<a href="#" class="gallery-mainpage__slide swiper-slide">
+										<div class="gallery-mainpage__image-ibg">
+											<picture><source data-srcset="img/gallery-mainpage/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/gallery-mainpage/04.jpg" alt="" class="gallery-mainpage__image" /></picture>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
 		</main>
-		<footer class="footer background">
+		<footer class="footer bg">
 			<div class="footer__container footer__container_large">
 				<div class="footer__container footer__container_small">
 					<div class="footer__newsletter newsletter-footer">
 						<div class="newsletter-footer__body">
 							<div class="newsletter-footer__head head">
-								<p class="head__subheading">Newsletter</p>
+								<span class="head__subheading">Newsletter</span>
 								<h2 class="head__title h2 _icon-spoon">
 									Subscribe to Our Newsletter
 								</h2>
-								<p class="head__text text">And never miss latest Updates!</p>
+								<p class="head__text txt">And never miss latest Updates!</p>
 							</div>
 							<form data-dev data-popup-message="#newsletterMessage" action="#" class="newsletter-footer__form form">
 								<div class="form__row">
 									<div class="form__input">
 										<input class="input" data-validate data-required="email" placeholder="Email Address" autocomplete="off" type="text" name="form[]" data-error />
 									</div>
-									<div class="form__btn">
-										<button type="submit" class="btn">
-											<span>Subscribe</span>
+									<div class="form__btn-wrap">
+										<button type="submit" class="form__btn btn">
+											<span class="btn__text">Subscribe</span>
 										</button>
 									</div>
 								</div>
@@ -640,19 +632,19 @@
 							<div class="footer__column column-footer">
 								<span class="column-footer__heading">Contact Us</span>
 								<div class="column-footer__content">
-									<p class="column-footer__text text">
+									<span class="column-footer__text txt">
 										9 W 53rd St, New York, NY 10019, USA
-									</p>
+									</span>
 									<div class="column-footer__numbers">
-										<a href="tel:+12123441230" class="column-footer__phone text">+1 212-344-1230</a>
-										<a href="tel:+12125551230" class="column-footer__phone text">+1 212-555-1230</a>
+										<a href="tel:+12123441230" class="column-footer__phone txt">+1 212-344-1230</a>
+										<a href="tel:+12125551230" class="column-footer__phone txt">+1 212-555-1230</a>
 									</div>
 								</div>
 							</div>
 							<div class="footer__column footer__column_central column-footer">
-								<a href="#" class="column-footer__logo"><img src="img/footer-logo.svg" alt="" /></a>
+								<a href="#" class="column-footer__logo"><img data-src="img/footer-logo.svg" alt="" aria-hidden="true" class="column-footer__logo-img" /></a>
 								<div class="column-footer__content">
-									<p class="column-footer__text column-footer__text_white text">
+									<p class="column-footer__text column-footer__text_white txt">
 										"The best way to find yourself is to lose yourself in the
 										service of others.”
 									</p>
@@ -667,24 +659,22 @@
 							<div class="footer__column column-footer">
 								<span class="column-footer__heading">Working Hours</span>
 								<div class="column-footer__content">
-									<p class="column-footer__text text">
+									<p class="column-footer__text txt">
 										<span>Monday-Friday: </span>
 										<span>08:00 am -12:00 am</span>
 									</p>
-									<p class="column-footer__text text">
+									<p class="column-footer__text txt">
 										<span>Saturday-Sunday: </span>
 										<span>07:00am -11:00 pm</span>
 									</p>
 								</div>
 							</div>
 						</div>
-						<p class="footer__copyrights text">
-							2021 Gerícht. All Rights reserved.
-						</p>
+						<p class="footer__copyrights txt">2021 Gerícht. All Rights reserved.</p>
 					</div>
 				</div>
 				<div data-goto-header data-goto=".mainpage__hero" data-da=".footer__copyrights, 1440, last" class="footer__scroll scroll">
-					<span>top</span>
+					<span class="scroll__text">top</span>
 				</div>
 			</div>
 		</footer>
@@ -707,7 +697,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230207124333"></script>
+	<script src="js/app.min.js?_v=20230710175052"></script>
 </body>
 
 </html>
