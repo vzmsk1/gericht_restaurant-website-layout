@@ -1,4 +1,4 @@
-## languages and tools that i used:
+## tools i used:
 
 - html, css
 - js
@@ -10,10 +10,4 @@
 - grid, flexbox
 - pixel perfect
 
-## pc preview
-
-![gericht](https://user-images.githubusercontent.com/114158560/216141076-c77971a8-9116-4b87-8965-7d0fe3c5aa7d.gif)
-
-## mobile preview
-
-![gericht-mobile](https://user-images.githubusercontent.com/114158560/216179474-2c96ade6-940d-43ac-817b-fe60e7a01122.gif)
+![screenshot](https://github.com/vyazemskaya/gericht_restaurant-website-layout/assets/114158560/32433b06-7179-4e8c-9dbf-1d9283c4c0cd)
